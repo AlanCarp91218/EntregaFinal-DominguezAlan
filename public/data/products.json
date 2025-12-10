@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "name": "Camiseta Atlético de Madrid",
+    "price": 42000,
+    "category": "indumentaria",
+    "description": "Camiseta titular Atlético de Madrid 2024/2025.",
+    "info": "Versión hincha. Tecnología Dri-FIT. Tela 100% poliéster.",
+    "imageUrl": "/images/atletico.webp"
+  },
+  {
+    "id": "2",
+    "name": "Camiseta FC Barcelona",
+    "price": 45000,
+    "category": "indumentaria",
+    "description": "Camiseta titular FC Barcelona 2024/2025.",
+    "info": "Versión estadio. Tela transpirable Nike Dri-FIT.",
+    "imageUrl": "/images/barcelona.webp"
+  },
+  {
+    "id": "3",
+    "name": "Camiseta Boca Juniors",
+    "price": 38000,
+    "category": "indumentaria",
+    "description": "Camiseta titular Boca Juniors 2024.",
+    "info": "Diseño oficial con banda amarilla. Tecnología AeroReady.",
+    "imageUrl": "/images/boca.webp"
+  }
+  ,
+  {
+    "id": "4",
+    "name": "Camiseta Inter de Milán",
+    "price": 44000,
+    "category": "indumentaria",
+    "description": "Camiseta titular Inter 2024/2025.",
+    "info": "Versión estadio. Tecnología Nike Dri-FIT ADV.",
+    "imageUrl": "/images/inter.webp"
+  },
+  {
+    "id": "5",
+    "name": "Camiseta AC Milan",
+    "price": 43000,
+    "category": "indumentaria",
+    "description": "Camiseta titular AC Milan 2024/2025.",
+    "info": "Diseño oficial Puma. Tela liviana y respirable.",
+    "imageUrl": "/images/milan.webp"
+  },
+  {
+    "id": "6",
+    "name": "Camiseta PSG",
+    "price": 46000,
+    "category": "indumentaria",
+    "description": "Camiseta titular Paris Saint-Germain 2024/2025.",
+    "info": "Versión hincha. Tecnología Dri-FIT. Escudo bordado.",
+    "imageUrl": "/images/psg.webp"
+  },
+  {
+    "id": "7",
+    "name": "Camiseta River Plate",
+    "price": 38000,
+    "category": "indumentaria",
+    "description": "Camiseta titular River Plate 2024.",
+    "info": "Diseño oficial Adidas. Tecnología AeroReady.",
+    "imageUrl": "/images/river.webp"
+  }
+]

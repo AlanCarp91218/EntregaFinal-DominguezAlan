@@ -1,0 +1,81 @@
+.form-container {
+  min-height: 90vh;           
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;      
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 420px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  background: #2c2c2c; 
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.form-login h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.7rem;
+  color: #ff1744;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.form-login > div {
+  display: grid;
+  gap: 0.7rem;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.form-login label {
+  font-size: 1rem;
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"] {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 2px solid #ff1744;
+  border-radius: 8px;
+  background: #3a3a3a;
+  color: #fff;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.15s, background 0.15s;
+  box-sizing: border-box;
+}
+
+.form-login input[type="text"]:focus,
+.form-login input[type="password"]:focus {
+  border-color: #d50000;
+  background: #353535;
+}
+
+.form-login button[type="submit"] {
+  display: block;
+  margin: 1rem auto 0 auto; 
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #ff1744;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(255,23,68,0.10);
+  transition: background 0.15s, transform 0.08s;
+}
+
+.form-login button[type="submit"]:hover {
+  background: #d50000;
+  transform: scale(1.04);
+}

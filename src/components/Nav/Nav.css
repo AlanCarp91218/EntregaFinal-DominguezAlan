@@ -1,0 +1,24 @@
+nav {
+  background: transparent;
+  box-shadow: none;
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}

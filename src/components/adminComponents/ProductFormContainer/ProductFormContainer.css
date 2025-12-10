@@ -1,0 +1,154 @@
+/* Contenedor del formulario */
+.product-form {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1.25rem 1.5rem;
+  background: #2c2c2c; /* gris oscuro */
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+.product-form h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.7rem;
+  color: #ffffff; /* rojo fuerte */
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Filas del formulario */
+.product-form > div {
+  display: grid;
+  gap: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Label + elementos */
+.product-form label {
+  font-size: 1rem;
+  color: #eeeeee; /* rojo claro */
+  font-weight: 600;
+}
+
+.product-form select {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 2px solid #ff1744;
+  border-radius: 8px;
+  background: #3a3a3a;
+  color: #fff;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+/* Inputs / textarea */
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form textarea {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 2px solid #ff1744;
+  border-radius: 8px;
+  background: #3a3a3a;
+  color: #fff;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+/* Placeholder más tenue */
+.product-form ::placeholder {
+  color: #ff8a80;
+}
+
+.product-form,
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form textarea {
+  box-sizing: border-box;
+}
+
+/* Textarea */
+.product-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Nota pequeña */
+.product-form small {
+  color: #ff8a80;
+}
+
+/* Preview de imagen */
+.product-form img {
+  display: block;
+  max-width: 220px;
+  border-radius: 8px;
+  border: 2px solid #ff1744;
+  margin-top: 0.5rem;
+}
+
+.btn-admin {
+  display: block;
+  margin-left: auto;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #ff1744;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(255,23,68,0.10);
+  transition: background 0.15s, transform 0.08s;
+}
+
+.btn-admin:hover {
+  background: #d50000;
+  transform: scale(1.04);
+}
+.btn-admin:active {
+  background: #b71c1c;
+  transform: scale(0.98);
+}
+.btn-admin:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Error */
+.error {
+  color: #ff1744;
+  background: #fff3f3;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Mensaje de inicio */
+.form-inicio {
+  color: #fff;
+  font-size: 1.1rem;
+  background-color: #d50000;
+  width: 170px;
+  margin: 10px auto;
+  padding: 7px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .product-form .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
